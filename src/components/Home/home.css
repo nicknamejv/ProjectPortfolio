@@ -1,0 +1,7 @@
+#home-card {
+    background-color: black;
+    opacity: 0.5;
+    color: var(--ming);
+    height: 100vh;
+    width: 100%;
+}
