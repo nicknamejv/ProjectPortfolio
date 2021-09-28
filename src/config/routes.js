@@ -5,8 +5,8 @@ import About from "../components/About/about";
 const Routes = () => {
     return (
         <Switch>
-            <Route exact path="/home" component={ Home } />
-            <Route path="/" component={ About } />
+            <Route exact path="/" component={ Home } />
+            <Route exact path="/about" component={ About } />
         </Switch>
     );
 };

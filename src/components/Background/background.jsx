@@ -85,7 +85,7 @@ class Background extends React.Component {
                                 "duration": 0.4,
                                 "easing": "ease-out-quad",
                                 "factor": 1,
-                                "maxSpeed": 50,
+                                "maxSpeed": 2,
                                 "speed": 1
                             },
                             "bounce": {
@@ -131,7 +131,7 @@ class Background extends React.Component {
                                 }
                             },
                             "push": {
-                                "default": true,
+                                "default": false,
                                 "groups": [],
                                 "quantity": 4
                             },
@@ -143,7 +143,7 @@ class Background extends React.Component {
                                 "duration": 0.4,
                                 "factor": 100,
                                 "speed": 1,
-                                "maxSpeed": 50,
+                                "maxSpeed": 2,
                                 "easing": "ease-out-quad"
                             },
                             "slow": {
@@ -159,8 +159,8 @@ class Background extends React.Component {
                                         "value": "#ff0000",
                                         "animation": {
                                             "enable": true,
-                                            "speed": 100,
-                                            "sync": true
+                                            "speed": 2,
+                                            "sync": false
                                         }
                                     },
                                     "collisions": {
@@ -202,7 +202,7 @@ class Background extends React.Component {
                                         "value": 5,
                                         "animation": {
                                             "enable": true,
-                                            "speed": 5,
+                                            "speed": 2,
                                             "minimumValue": 1,
                                             "sync": true,
                                             "startValue": "min",
@@ -286,7 +286,7 @@ class Background extends React.Component {
                         "disable": false,
                         "reduce": {
                             "factor": 4,
-                            "value": true
+                            "value": false
                         }
                     },
                     "particles": {
@@ -323,10 +323,10 @@ class Background extends React.Component {
                                     "value": 1
                                 }
                             },
-                            "enable": true,
+                            "enable": false,
                             "mode": "bounce",
                             "overlap": {
-                                "enable": true,
+                                "enable": false,
                                 "retries": 0
                             }
                         },
@@ -338,21 +338,21 @@ class Background extends React.Component {
                                     "enable": false,
                                     "offset": 0,
                                     "speed": 1,
-                                    "sync": true
+                                    "sync": false
                                 },
                                 "s": {
                                     "count": 0,
                                     "enable": false,
                                     "offset": 0,
                                     "speed": 1,
-                                    "sync": true
+                                    "sync": false
                                 },
                                 "l": {
                                     "count": 0,
                                     "enable": false,
                                     "offset": 0,
                                     "speed": 1,
-                                    "sync": true
+                                    "sync": false
                                 }
                             }
                         },
@@ -377,7 +377,7 @@ class Background extends React.Component {
                                         "max": 9
                                     }
                                 },
-                                "sizeOffset": true
+                                "sizeOffset": false
                             }
                         },
                         "gradient": [],
@@ -451,7 +451,7 @@ class Background extends React.Component {
                                 "acceleration": 2.5,
                                 "enable": false,
                                 "inverse": false,
-                                "maxSpeed": 50
+                                "maxSpeed": 2.5
                             },
                             "path": {
                                 "clamp": true,
@@ -474,7 +474,7 @@ class Background extends React.Component {
                             },
                             "random": false,
                             "size": false,
-                            "speed": 1.5,
+                            "speed": 1,
                             "spin": {
                                 "acceleration": 0,
                                 "enable": false
@@ -609,11 +609,11 @@ class Background extends React.Component {
                             "animation": {
                                 "count": 0,
                                 "enable": true,
-                                "speed": 1,
+                                "speed": 0.5,
                                 "sync": false,
                                 "destroy": "none",
                                 "startValue": "random",
-                                "minimumValue": 1
+                                "minimumValue": 0.5
                             }
                         },
                         "stroke": {

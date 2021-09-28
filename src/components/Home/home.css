@@ -1,7 +1,20 @@
-#home-card {
-    background-color: black;
-    opacity: 0.5;
+#home {
     color: var(--ming);
-    height: 100vh;
-    width: 100%;
+    height: 95vh;
+    width: 100vw;
+}
+
+#home-img {
+    height: 90vh;
+    width: 100vw;
+}
+
+#home-text {
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+#home-text:hover {
+    transform: scale(1.1);
+    color: var(--gainsboro);
 }

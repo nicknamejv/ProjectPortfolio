@@ -3,20 +3,17 @@ import homeimage from '../../assets/Setting.png';
 
 const Home = () => {
     return (
-        <div className="container-fluid">
-            <div className="card mb-3" id="home-card">
-                <div className="row g-0">
-                    <div className="col-md-4">
-                        <img src={ homeimage } className="img-fluid rounded-start" alt="home"></img>
+        <div className="container-fluid p-1" id="home">
+            <div className="row g-0">
+                    <div className="col-md-6">
+                        <img src={ homeimage } className="img-fluid rounded-start" alt="home" id="home-img"></img>
                     </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
+                    <div className="col-md-6 d-flex justify-content-center flex-column">
+                            <p className="display-5" id="home-text">Hello World!</p>
+                            <p className="display-5" id="home-text">Welcome To My Portfolio!</p>
+                            <p className="display-5" id="home-text">My name is Jon Ver Cabral Dela Cruz.</p>
                     </div>
                 </div>
-            </div>
         </div>
     );
 };
