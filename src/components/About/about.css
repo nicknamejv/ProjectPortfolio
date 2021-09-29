@@ -1,0 +1,17 @@
+#about-description {
+    font-size: 35px;
+    padding: 5px;
+    margin: 8px;
+    color: var(--gainsboro);
+}
+
+#about-background {
+    background-color: rgba(53, 53, 53, .5);
+    background-image: var(--bs-gradient);
+}
+
+#about-image {
+    width: 550px;
+    height: 850px;
+    border-radius: 7px;
+}

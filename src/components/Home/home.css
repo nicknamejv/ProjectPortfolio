@@ -1,20 +1,31 @@
 #home {
-    color: var(--ming);
+    color: var(--gainsboro);
     height: 95vh;
     width: 100vw;
 }
 
 #home-img {
-    height: 90vh;
-    width: 100vw;
+    height: 60vh;
 }
 
 #home-text {
     font-weight: bolder;
     transition: 0.3s;
+    font-size: 60px;
 }
 
 #home-text:hover {
     transform: scale(1.1);
-    color: var(--gainsboro);
+    color: var(--ming);
+}
+
+#home-button {
+    font-size: 18px;
+    background-color: var(--jet);
+    transition: 0.3s;
+}
+
+#home-button:hover {
+    font-weight: bolder;
+    background-color: var(--ming);
 }

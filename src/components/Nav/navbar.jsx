@@ -11,19 +11,19 @@ const NavBar = () => {
                     <div className="d-flex justify-content-center">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                                <a className="nav-link" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="/about">About</a>
+                                <a className="nav-link" href="#about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#projects">Projects</a>
+                                <a className="nav-link" href="#projects">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#stack">Stack</a>
+                                <a className="nav-link" href="#stack">Stack</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#contact">Contact</a>
+                                <a className="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
