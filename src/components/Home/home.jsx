@@ -1,6 +1,7 @@
 import './home.css';
 import image from '../../assets/Online games addiction.gif';
 
+
 const Home = () => {
     return (
         <div className="container-fluid p-5 d-flex justify-content-center" id="home">
@@ -15,7 +16,7 @@ const Home = () => {
                     <br />
                     <div className="d-flex justify-content-center">
                         <a href="/about" className="btn btn-dark" role="button" id="home-button">
-                            console.log('Enter Portfolio')
+                            console.log("Enter Portfolio")
                         </a>
                     </div>
                 </div>
