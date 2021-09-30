@@ -21,3 +21,13 @@
     background-color: rgba(53, 53, 53, .5);
     background-image: var(--bs-gradient);
 }
+
+@media screen and (max-width: 480px) {
+    #tech-stack img {
+        max-width: max-content;
+    }
+
+    #tech-stack {
+        width: fit-content;
+    }
+}

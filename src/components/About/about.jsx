@@ -4,7 +4,7 @@ import image2 from '../../assets/IMG_8755.JPG';
 const About = () => {
     return (
         <section className="p-5" id="about">
-            <div class="container-fluid px-3 px-lg-5">
+            <div class="container-fluid px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0" id="section-title">
@@ -14,7 +14,7 @@ const About = () => {
                     <hr class="divider divider-light" />
                     <div className="row g-0 m-2 py-5" id="about-background">
                         <div className="col-md-4 d-flex justify-content-center" id="about-section">
-                            <img src={image2} alt="about-image" class="img-fluid img-thumbnail" id="about-image" />
+                            <img src={ image2 } alt="about-image" class="img-fluid img-thumbnail" id="about-image" />
                         </div>
                         <div className="col-md-8">
                             <p class="mb-4" id="about-description">

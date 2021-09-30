@@ -18,7 +18,7 @@ const Projects = () => {
                     <div className="d-flex justify-content-evenly flex-wrap">
                         <div className="m-2 p-3">
                             <div className="card" id="project-card">
-                                <img src={image4} class="card-img-top" alt="project"></img>
+                                <img src={ image4 } class="card-img-top" alt="project"></img>
                                 <hr class="divider divider-dark" />
                                 <div class="card-body">
                                     <h4>JOURNEY JAPAN</h4>
@@ -85,7 +85,7 @@ const Projects = () => {
                         </div>
                         <div className="m-2 p-3">
                             <div className="card" id="project-card">
-                                <img src={image2} class="card-img-top" alt="project"></img>
+                                <img src={ image2 } class="card-img-top" alt="project"></img>
                                 <hr class="divider divider-dark" />
                                 <div class="card-body">
                                     <h4>WEEBS R US</h4>
@@ -118,7 +118,7 @@ const Projects = () => {
                         </div>
                         <div className="m-2 p-3">
                             <div className="card" id="project-card">
-                                <img src={image1} class="card-img-top" alt="project"></img>
+                                <img src={ image1 } class="card-img-top" alt="project"></img>
                                 <hr class="divider divider-dark" />
                                 <div class="card-body">
                                     <h4>TOMAGOTCHI</h4>
