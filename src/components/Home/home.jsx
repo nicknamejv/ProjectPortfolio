@@ -9,10 +9,16 @@ const Home = () => {
                 <div className="col-md-4">
                     <img src={image} className="img-fluid" alt="home" id="home-img"></img>
                 </div>
-                <div className="col-md-8 d-flex justify-content-center align-items-center flex-column flex-wrap">
-                    <p className="display-5" id="home-text">Hello World!</p>
-                    <p className="display-5" id="home-text">Welcome To My Portfolio!</p>
-                    <p className="display-5" id="home-text">My name is Jon Ver Cabral Dela Cruz.</p>
+                <div className="col-md-8 d-flex justify-content-center align-items-center flex-column">
+                    <p className="display-5" id="home-text">
+                        Hello World!
+                    </p>
+                    <p className="display-5" id="home-text">
+                        Welcome To My Portfolio!
+                    </p>
+                    <p className="display-5" id="home-text">
+                        My name is Jon Ver Cabral Dela Cruz.
+                    </p>
                     <br />
                     <div className="d-flex justify-content-center">
                         <a href="/about" className="btn btn-dark" role="button" id="home-button">

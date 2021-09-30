@@ -30,3 +30,21 @@
     font-weight: bolder;
     background-color: var(--ming);
 }
+
+@media screen and (max-width: 480px) {
+    #home-text {
+        font-size: 35px;
+    }
+
+    #home-button {
+        font-size: 12px;
+    }
+
+    #home {
+        width: 350px;
+    }
+    
+    #home-button {
+        width: 260px;
+    }
+}

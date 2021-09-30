@@ -6,3 +6,9 @@
 .navbar-nav a:hover {
     color: var(--jet) !important;
 }
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        font-size: 18px;
+    }
+}
