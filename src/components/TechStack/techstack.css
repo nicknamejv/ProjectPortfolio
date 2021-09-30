@@ -1,11 +1,17 @@
 #techstack-img {
     height: 90px;
     width: auto;
+}
+
+#tech-card {
     transition: 0.3s;
 }
 
-#techstack-img:hover {
+#tech-card:hover {
     transform: scale(1.2);
+}
+
+#tech-card:hover h3 {
     color: #ffb703;
 }
 
@@ -30,5 +36,15 @@
 
     #tech-stack {
         width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #tech-stack-title {
+        font-size: 15px;
+    }
+
+    #tech-card {
+        width: 150px;
     }
 }
