@@ -11,7 +11,7 @@ const TechStack = () => {
                         My Tech Stack!
                     </h2>
                     <hr class="divider" />
-                    <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-3" id="tech-stack">
+                    <div className="row row-cols-1 row-cols-lg-4 g-2 g-lg-3" id="tech-stack">
                         {TechStackData.map((item, index) => {
                             return (
                                 <div key={index} class="row text-center" id="tech-card">
