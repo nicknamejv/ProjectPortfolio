@@ -13,10 +13,10 @@ const About = () => {
                     </div>
                     <hr class="divider divider-light" />
                     <div className="row g-0 m-2" id="about-background">
-                        <div className="col-md-4 d-flex justify-content-center" id="about-section">
+                        <div className="col-md-5 d-flex justify-content-center" id="about-section">
                             <img src={ image2 } alt="about-image" class="img-fluid img-thumbnail" id="about-image" />
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-7">
                             <p class="mb-4" id="about-description">
                                 Hello, My name is Jon! I’m a Software Engineer with a background in the retail sector. Through this experience, I have created a strong foundation in communication, strategic thinking, and problem solving. I am highly devoted and passionate about CSS. I specialize in NEM stack (Node.js, Express.js, MongoDB) to create web applications with use of RESTFUL routing and full CRUD.
                             </p>

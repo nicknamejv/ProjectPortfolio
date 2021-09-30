@@ -2,6 +2,7 @@
     color: var(--gainsboro);
     height: 95vh;
     width: 100vw;
+    overflow: hidden !important;
 }
 
 #home-img {

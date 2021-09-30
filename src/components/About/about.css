@@ -14,7 +14,7 @@
 #about-image {
     width: 550px;
     height: 850px;
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 480px) {
