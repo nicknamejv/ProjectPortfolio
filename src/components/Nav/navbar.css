@@ -15,4 +15,13 @@
     #navbar {
         font-size: 15px;
     }
+
+    #navbar-links {
+        gap: 3px;
+    }
+
+    #navbar-links svg {
+        height: 20px;
+        width: 20px;
+    }
 }
