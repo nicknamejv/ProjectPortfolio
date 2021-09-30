@@ -13,6 +13,7 @@
 
 #home-img img {
     height: 50vh;
+    clip-path: polygon(54% 5%, 81% 15%, 100% 45%, 94% 87%, 48% 100%, 16% 94%, 0 62%, 13% 6%);
 }
 
 .home-text {
