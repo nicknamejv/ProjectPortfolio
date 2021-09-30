@@ -1,0 +1,16 @@
+export { default as bootstrap } from './bootstrap.png';
+export { default as bulma } from './bulma.png';
+export { default as css3 } from './css3.png';
+export { default as django } from './django.png';
+export { default as express } from './express.png';
+export { default as html5 } from './html5.png';
+export { default as javascript } from './javascript.png';
+export { default as mongodb } from './mongodb.png';
+export { default as nodejs } from './nodejs.png';
+export { default as npm } from './npm.png';
+export { default as postgresql } from './postgresql.png';
+export { default as python } from './python.png';
+export { default as react } from './react.png';
+export { default as sass } from './sass.png';
+export { default as typescript } from './typescript.png';
+export { default as yarn } from './yarn.png';

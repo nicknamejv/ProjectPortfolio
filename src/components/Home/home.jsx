@@ -4,7 +4,7 @@ import image from '../../assets/Online games addiction.gif';
 
 const Home = () => {
     return (
-        <div className="container-fluid p-5 d-flex justify-content-center" id="home">
+        <div className="container-fluid p-5 d-flex justify-content-center flex-wrap" id="home">
             <div className="row g-5">
                 <div className="col-md-4">
                     <img src={image} className="img-fluid" alt="home" id="home-img"></img>

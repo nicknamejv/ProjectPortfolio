@@ -1,0 +1,23 @@
+#techstack-img {
+    height: 90px;
+    width: auto;
+    transition: 0.3s;
+}
+
+#techstack-img:hover {
+    transform: scale(1.2);
+    color: #ffb703;
+}
+
+#tech-stack img {
+    padding: 10px;
+}
+
+#tech-stack-title {
+    color: var(--gainsboro);
+}
+
+#tech-stack {
+    background-color: rgba(53, 53, 53, .5);
+    background-image: var(--bs-gradient);
+}

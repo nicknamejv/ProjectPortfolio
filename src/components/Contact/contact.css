@@ -1,0 +1,29 @@
+#contact-links {
+    color: var(--gainsboro);
+    padding: 5px;
+    margin: 8px;
+    font-size: 18px;
+}
+
+#contact-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+#contact-links a:hover {
+    /* transform: scale(1.1); */
+    color: #ffb703;
+    font-weight: bolder;
+}
+
+#contact-section {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-background {
+    background-color: rgba(53, 53, 53, .5);
+    background-image: var(--bs-gradient);
+    width: fit-content;
+}

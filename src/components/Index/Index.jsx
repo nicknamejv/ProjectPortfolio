@@ -1,7 +1,7 @@
 import About from '../About/about';
 import Contact from '../Contact/contact';
 import Projects from '../Projects/projects';
-import Stack from '../Stack/stack';
+import TechStack from '../TechStack/TechStack';
 import NavBar from '../Nav/navbar';
 
 const Index = () => {
@@ -10,7 +10,7 @@ const Index = () => {
             <NavBar />
             <About />
             <Projects />
-            <Stack />
+            <TechStack />
             <Contact />
         </div>
     );
