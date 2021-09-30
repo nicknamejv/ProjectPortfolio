@@ -5,8 +5,14 @@
 }
 
 #home-img {
-    height: 60vh;
     opacity: .9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-img img {
+    height: 50vh;
 }
 
 .home-text {
@@ -30,7 +36,6 @@
 #home-button:hover {
     font-weight: bolder;
     background-color: var(--ming);
-    cursor: default;
 }
 
 @media screen and (max-width: 480px) {
