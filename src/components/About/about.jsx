@@ -12,7 +12,7 @@ const About = () => {
                         </h2>
                     </div>
                     <hr class="divider divider-light" />
-                    <div className="row g-0 m-2" id="about-background">
+                    <div className="row g-0 m-2 py-5" id="about-background">
                         <div className="col-md-5 d-flex justify-content-center" id="about-section">
                             <img src={ image2 } alt="about-image" class="img-fluid img-thumbnail" id="about-image" />
                         </div>
