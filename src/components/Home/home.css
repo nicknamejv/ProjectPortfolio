@@ -9,15 +9,16 @@
     opacity: .9;
 }
 
-#home-text {
+.home-text {
     font-weight: bolder;
     transition: 0.3s;
-    font-size: 60px;
+    font-size: 45px;
 }
 
-#home-text:hover {
+.home-text:hover {
     transform: scale(1.1);
     color: var(--ming);
+    cursor: default;
 }
 
 #home-button {
@@ -29,10 +30,11 @@
 #home-button:hover {
     font-weight: bolder;
     background-color: var(--ming);
+    cursor: default;
 }
 
 @media screen and (max-width: 480px) {
-    #home-text {
+    .home-text {
         font-size: 13px;
     }
 

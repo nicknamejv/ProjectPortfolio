@@ -9,14 +9,14 @@ const Home = () => {
                 <div className="col-md-4">
                     <img src={image} className="img-fluid" alt="home" id="home-img"></img>
                 </div>
-                <div className="col-md-8 d-flex justify-content-center align-items-center flex-column">
-                    <p className="display-5" id="home-text">
+                <div className="col-md-8 d-flex justify-content-center align-items-center flex-column text-center">
+                    <p className="display-5 home-text" >
                         Hello World!
                     </p>
-                    <p className="display-5" id="home-text">
+                    <p className="display-5 home-text">
                         Welcome To My Portfolio!
                     </p>
-                    <p className="display-5" id="home-text">
+                    <p className="display-5 home-text">
                         My name is Jon Ver Cabral Dela Cruz.
                     </p>
                     <br />

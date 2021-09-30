@@ -9,7 +9,7 @@ const NavBar = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <div className="d-flex justify-content-center">
-                        <ul className="navbar-nav align-items-center">
+                        <ul className="navbar-nav align-items-center" id="navbar-links">
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="/">Home</a>
                             </li>
