@@ -38,13 +38,10 @@
 
     #home-button {
         font-size: 12px;
+        width: 260px;
     }
 
     #home {
         width: 400px;
-    }
-    
-    #home-button {
-        width: 260px;
     }
 }
