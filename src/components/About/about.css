@@ -18,16 +18,20 @@
 
 @media screen and (max-width: 480px) {
     #about-description {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     #about-image {
         max-width: auto;
-        height: 550px;
+        height: auto;
     }
 
     #about-section {
         padding: 10px;
+    }
+
+    #about-div {
+        width: 300px;
     }
 }
 

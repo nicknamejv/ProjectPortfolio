@@ -28,3 +28,10 @@ body {
     font-size: 70px;
     text-shadow: 3px 3px var(--gainsboro);
 }
+
+
+@media screen and (max-width: 480px) {
+    #section-title {
+        font-size: 35px;
+    }
+}

@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 480px) {
     #home-text {
-        font-size: 35px;
+        font-size: 13px;
     }
 
     #home-button {
@@ -41,7 +41,7 @@
     }
 
     #home {
-        width: 350px;
+        width: 400px;
     }
     
     #home-button {

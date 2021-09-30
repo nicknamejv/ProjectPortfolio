@@ -14,7 +14,7 @@ const TechStack = () => {
                     <div className="row row-cols-1 row-cols-lg-4 g-2 g-lg-3" id="tech-stack">
                         {TechStackData.map((item, index) => {
                             return (
-                                <div key={index} class="row text-center">
+                                <div key={index} class="row text-center" id="tech-card">
                                     <div class="mt-5">
                                         <h3 class="h4 mb-2" id="tech-stack-title">
                                             {item.title}
