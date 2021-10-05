@@ -18,7 +18,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                             <p class="mb-4" id="about-description">
-                                Hello, My name is Jon! I’m a Full Stack Developer with a background in the retail sector. Through this experience, I have created a strong foundation in communication, strategic thinking, and problem solving. I am highly devoted and passionate about CSS. I specialize in NEM stack (Node.js, Express.js, MongoDB) to create web applications with use of RESTFUL routing and full CRUD.
+                                Hello, My name is Jon! I’m a Full Stack Developer and recent graduate from General Assembly with a background in the retail sector. Through this experience, I have created a strong foundation in communication, strategic thinking, and problem solving. I am highly devoted and passionate about CSS. I specialize in NEM stack (Node.js, Express.js, MongoDB) to create web applications with use of RESTFUL routing and full CRUD.
                             </p>
                             <p class="mb-4" id="about-description">
                                 When I'm not coding you'll find me somewhere around the world. I love traveling and visiting national parks and so far I have visited all the major parks in the western United States. I also have a long list of hobbies that include photography, videography, and the occasional video game sessions.
