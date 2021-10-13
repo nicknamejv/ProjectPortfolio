@@ -14,10 +14,7 @@ const Home = () => {
                         Hello World!
                     </p>
                     <p className="display-5 home-text">
-                        Welcome To My Portfolio!
-                    </p>
-                    <p className="display-5 home-text">
-                        My name is Jon Ver Cabral Dela Cruz.
+                        My name is Jon Ver Cabral Dela Cruz and I am a Full Stack Developer.
                     </p>
                     <br />
                     <div className="d-flex justify-content-center">
