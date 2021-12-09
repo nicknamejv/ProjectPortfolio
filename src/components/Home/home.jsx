@@ -29,7 +29,7 @@ const Home = () => {
                                         .typeString("Hello World.")
                                         .pauseFor(1000)
                                         .deleteAll()
-                                        .typeString('console.log("Enter Portfolio)')
+                                        .typeString('console.log("Enter Portfolio")')
                                         .start()
                                 }}
                             />
