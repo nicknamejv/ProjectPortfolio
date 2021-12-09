@@ -1,5 +1,6 @@
 import './home.css';
 import image from '../../assets/Online games addiction.gif';
+import Typewriter from "typewriter-effect";
 
 
 const Home = () => {
@@ -22,7 +23,16 @@ const Home = () => {
                     <br />
                     <div className="d-flex justify-content-center">
                         <a href="/about" className="btn btn-dark" role="button" id="home-button">
-                            console.log("Enter Portfolio")
+                            <Typewriter
+                                onInit={(typewriter) => {
+                                    typewriter
+                                        .typeString("Hello World.")
+                                        .pauseFor(1000)
+                                        .deleteAll()
+                                        .typeString('console.log("Enter Portfolio)')
+                                        .start()
+                                }}
+                            />
                         </a>
                     </div>
                 </div>
