@@ -1,50 +1,49 @@
 #techstack-img {
-    height: 90px;
-    width: auto;
+  height: 90px;
+  width: auto;
 }
 
 #tech-card {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 #tech-card:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #tech-card:hover h3 {
-    color: #ffb703;
+  color: #ffb703;
 }
 
 #tech-stack img {
-    padding: 10px;
+  padding: 10px;
 }
 
 #tech-stack-title {
-    color: var(--gainsboro);
+  color: var(--gainsboro);
 }
 
 #tech-stack {
-    background-color: rgba(53, 53, 53, .5);
-    background-image: var(--bs-gradient);
+  background-image: var(--bs-gradient);
 }
 
 @media screen and (max-width: 480px) {
-    #tech-stack img {
-        width: 100px;
-        height: auto;
-    }
+  #tech-stack img {
+    width: 100px;
+    height: auto;
+  }
 
-    #tech-stack {
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
+  #tech-stack {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
 
-    #tech-stack-title {
-        font-size: 15px;
-    }
+  #tech-stack-title {
+    font-size: 15px;
+  }
 
-    #tech-card {
-        width: 150px;
-    }
+  #tech-card {
+    width: 150px;
+  }
 }

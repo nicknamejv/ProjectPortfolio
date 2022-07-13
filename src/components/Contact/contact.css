@@ -23,7 +23,6 @@
 }
 
 #contact-background {
-    background-color: rgba(53, 53, 53, .5);
     background-image: var(--bs-gradient);
     width: fit-content;
 }

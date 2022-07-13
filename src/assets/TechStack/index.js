@@ -14,3 +14,8 @@ export { default as react } from './react.png';
 export { default as sass } from './sass.png';
 export { default as typescript } from './typescript.png';
 export { default as yarn } from './yarn.png';
+export { default as vue } from './vue.png';
+export { default as pinia } from './pinia.svg';
+export { default as jira } from './jira.png';
+export { default as figma } from './figma.png';
+export { default as gitlab } from './gitlab.png';

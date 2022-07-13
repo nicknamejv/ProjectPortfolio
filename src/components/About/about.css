@@ -6,7 +6,6 @@
 }
 
 #about-background {
-    background-color: rgba(53, 53, 53, .5);
     background-image: var(--bs-gradient);
     /* padding: 75px 50px 100px 0; */
 }
