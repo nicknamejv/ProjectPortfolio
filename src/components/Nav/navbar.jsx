@@ -52,7 +52,7 @@ const NavBar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://docs.google.com/document/d/14w5M9Qr7HjPS3Bjm3FrY4yMOh42agH3WU5qKfNMr8dQ/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1KyHcF5G35-EPfKt1zlOSvRBLitELhiMm/view?usp=sharing"
                   target="_blank"
                 >
                   Resume

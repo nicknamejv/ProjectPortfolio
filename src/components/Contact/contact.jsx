@@ -81,9 +81,9 @@ const Contact = () => {
                 </a>
               </p>
               <p class="mb-4" id="contact-links">
-                <a//docs.google.com/document/d/14w5M9Qr7HjPS3Bjm3FrY4yMOh42agH3WU5qKfNMr8dQ/edit?usp=sharing
+                <a
                   className="nav-link"
-                  href="https://docs.google.com/document/d/14w5M9Qr7HjPS3Bjm3FrY4yMOh42agH3WU5qKfNMr8dQ/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1KyHcF5G35-EPfKt1zlOSvRBLitELhiMm/view?usp=sharing"
                   target="_blank"
                 >
                   <span>
