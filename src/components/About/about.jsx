@@ -3,7 +3,7 @@ import image2 from '../../assets/IMG_8755.JPG';
 
 const About = () => {
   return (
-    <section className="p-5" id="about">
+    <section className="p-4" id="about">
       <div class="container-fluid px-5 px-lg-5" id="about-div">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-8 text-center">
